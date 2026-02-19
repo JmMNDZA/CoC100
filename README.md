@@ -14,5 +14,4 @@ Install the CoC100 extension
 [TO BE ADDED IN UPCOMING RELEASE]
 
 Only available on Chromium browsers.
-```
-## #NoToVibeCoding
+# #NoToVibeCoding
