@@ -1,6 +1,5 @@
 @import "tailwindcss";
-@import "flyonui/variants.css";
-@plugin "flyonui";
+@plugin "daisyui";
 
 @theme {
   --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif,
