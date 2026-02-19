@@ -5,6 +5,7 @@
 - Automated stats alongside character creation.
 - Save and load your characters to a JSON file.
 - Dice Roller integrated with Roll20.
+- Light and Dark interfaces
 
 ## Getting Started with CoC100
 
@@ -14,4 +15,3 @@ Install the CoC100 extension
 [TO BE ADDED IN UPCOMING RELEASE]
 
 Only available on Chromium browsers.
-# #NoToVibeCoding
