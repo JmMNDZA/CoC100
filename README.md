@@ -6,7 +6,7 @@
 - Save and load your characters to a JSON file.
 - Dice Roller integrated with Roll20.
 
-## Getting Started
+## Getting Started with CoC100
 
 ### Installation
 
