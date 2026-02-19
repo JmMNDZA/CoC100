@@ -1,19 +1,22 @@
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
-import { Button } from "../components/Button";
+import { Button } from "../components/ButtonX";
+import "app/app.css";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "CoC 20" },
+    { name: "description", content: "Welcome to CoC 20!" },
   ];
 }
 
 export default function Home() {
   return (
-    <div>
-      <Welcome />
-      <Button />
+    <div className="flex flex-row items-center justify-center gap-4 p-4 m-3">
+      <h1 id="charName">Character Name</h1>
+      <Button name="Notes" buttonType="notesButton"/>
+      <Button name="Save Character" buttonType="jsonButton"/>
+      <Button name="Load Character" buttonType="jsonButton"/>
     </div>
+    
   );
 }
