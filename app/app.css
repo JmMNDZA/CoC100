@@ -1,4 +1,11 @@
 @import "tailwindcss";
+@plugin "flyonui";
+@source "./node_modules/flyonui/dist/index.js"; /* Require only if you want to use FlyonUI JS component */
+@source "./node_modules/flyonui/dist/accordion.js"; 
+@plugin "@iconify/tailwind4";
+
+
+/* <span class="icon-[tabler--upload]"></span> */
 
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
