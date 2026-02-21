@@ -6,7 +6,7 @@ export function CharInfo() {
         <div className="flex aligns-center justify-center text-center p-2">
         <h2>INFO</h2>
         </div>
-        <div className="grid grid-cols-[2fr_1fr] grid-rows-3 p-2 gap-0.8">
+        <div className="grid grid-cols-[2fr_1fr] grid-rows-3 p-2 gap-x-3 gap-y-0.8">
             <SelectModify
             name="Occupation"
             options = {["Carpenter", "Cornstar"]}
