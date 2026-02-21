@@ -1,4 +1,4 @@
-import { SelectModify1, SelectModify2 } from "./SelectModify"
+import { SelectModify } from "./SelectModify"
 
 export function CharInfo() {
     return (
@@ -7,27 +7,27 @@ export function CharInfo() {
         <h2>INFO</h2>
         </div>
         <div className="grid grid-cols-[2fr_1fr] grid-rows-3 p-2 gap-0.8">
-            <SelectModify1
+            <SelectModify
             name="Occupation"
             options = {["Carpenter", "Cornstar"]}
             placeholder ="Pick an occupation"
             />
-           <SelectModify2
+           <SelectModify
             name="Gender"
             options = {["Male", "Female","Non-Binary"]}
             placeholder ="Pick your gender"
             />
-            <SelectModify1
+            <SelectModify
             name="Residence"
             options = {["USA", "Canada"]}
             placeholder ="Pick your residence"
             />
-            <SelectModify2
+            <SelectModify
             name="Age"
             options = {["Minor", "Major"]}
             placeholder ="Pick an age"
             />
-            <SelectModify1
+            <SelectModify
             name="Birthplace"
             options = {["Philippines", "Russia"]}
             placeholder ="Pick your birthplace"
