@@ -91,8 +91,3 @@ body {
 h1 {
   @apply text-4xl font-bold;
 }
-
-[contenteditable]:empty:before {
-    content: attr(data-placeholder);
-    opacity: 0.5;
-}
