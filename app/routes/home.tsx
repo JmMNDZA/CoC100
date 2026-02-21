@@ -4,6 +4,7 @@ import { ValueModify } from "../components/ValueModify";
 import { ThemeSwitcher } from "../components/ThemeSwitcher";
 import { Navbar } from "../components/Navbar";
 import "app/app.css";
+import { GridLayout } from "~/components/GridLayout";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -14,8 +15,9 @@ export function meta({}: Route.MetaArgs) {
 
 export default function Home() {
   return (
-    <div className="flex flex-row items-center justify-around m-5">
+    <div className="flex flex-col items-center justify-around mt-4 ml-8 mr-8 gap-4">
       <Navbar />
+      <GridLayout />
     </div>
   );
 }
