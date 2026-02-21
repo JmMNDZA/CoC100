@@ -1,7 +1,7 @@
 import type { Route } from "./+types/home";
 import { Button } from "../components/ButtonX";
 import { ValueModify } from "../components/ValueModify";
-import { ThemeSwitcher } from "../components/ThemeSwitcher";
+import ThemeSwitcher from "../components/ThemeSwitcher";
 import "app/app.css";
 
 export function meta({}: Route.MetaArgs) {
