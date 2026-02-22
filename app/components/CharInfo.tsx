@@ -3,8 +3,6 @@ import { SelectModify } from "./SelectModify"
 export function CharInfo() {
     return (
     <div className="flex flex-col justify-center p-2 gap-1">
-        <div className="flex aligns-center justify-center text-center p-1">
-        <h2>INFO</h2>
         <div className="flex aligns-center justify-center text-center p-2">
         <h2>INFORMATION</h2>
         </div>
@@ -37,7 +35,6 @@ export function CharInfo() {
 
 
         </div>
-    </div>
     </div>
     );
 
