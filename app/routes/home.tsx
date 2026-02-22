@@ -1,7 +1,4 @@
 import type { Route } from "./+types/home";
-import { Button } from "../components/ButtonX";
-import { ValueModify } from "../components/ValueModify";
-import { ThemeSwitcher } from "../components/ThemeSwitcher";
 import { Navbar } from "../components/Navbar";
 import "app/app.css";
 import { GridLayout } from "~/components/GridLayout";
@@ -15,7 +12,7 @@ export function meta({}: Route.MetaArgs) {
 
 export default function Home() {
   return (
-    <div className="flex flex-col bg-base-200 items-center justify-around gap-4">
+    <div className="bg-base-200 min-h-full w-full m-0 p-0">
       <Navbar />
       <GridLayout />
     </div>

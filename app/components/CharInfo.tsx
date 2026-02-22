@@ -2,11 +2,11 @@ import { SelectModify } from "./SelectModify"
 
 export function CharInfo() {
     return (
-    <div className="flex flex-col justify-center p-2 gap-1">
+    <div className="flex flex-col justify-center p-2">
         <div className="flex aligns-center justify-center text-center p-2">
         <h2>INFORMATION</h2>
         </div>
-        <div className="grid grid-cols-[2fr_1fr] grid-rows-3 p-2 gap-x-3 gap-y-0.8">
+        <div className="grid grid-cols-[2fr_1fr] grid-rows-3 pr-5 pl-5 pb-3 gap-x-3 gap-y-0.8">
             <SelectModify
             name="Occupation"
             options = {["Carpenter", "Cornstar"]}

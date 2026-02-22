@@ -5,21 +5,25 @@ import "app/app.css";
 
 export function Navbar() {
   return (
-    <div className="flex flex-row items-center justify-evenly m-4 gap-10">
-      <h2 className="text-sm text-accent font-bold">COC100 </h2>
-      <h1 id="charName">Character Name</h1>
-      <div className= "flex flex-row items-center justify-center gap-10 m-4">
-      <ValueModify name="Health " placeholder="50 / 50"/>
-      <ValueModify name="Magic " placeholder="50 / 50"/>
-      <ValueModify name="Sanity " placeholder="50 / 50"/>
-      </div>
-          <div className= "flex flex-row items-center justify-center gap-4">
-      <Button name="Notes" buttonType="notesButton"/>
-      <Button name="Save Character" buttonType="jsonButton"/>
-      <Button name="Load Character" buttonType="jsonButton"/>
-      </div>
-      <ThemeSwitcher />
-    </div>
+    <div className="flex flex-col md:flex-row flex-wrap justify-evenly items-center w-full gap-5 py-8">
+  <div className="flex flex-col">
+    <h3>COC100 </h3>
+    <h1 id="charName" className="mt-[-5px]">Character Name</h1>
+  </div>
+  <div className="flex flex-row items-center justify-center gap-6 flex-wrap">
+    <ValueModify name="Health " placeholder="50 / 50"/>
+    <ValueModify name="Magic " placeholder="50 / 50"/>
+    <ValueModify name="Sanity " placeholder="50 / 50"/>
+  </div>
+  <div className="flex flex-row items-center justify-center gap-4 flex-wrap">
+    <Button name="Notes" buttonType="notesButton"/>
+    <Button name="Save" buttonType="jsonButton"/>
+    <Button name="Load" buttonType="jsonButton"/>
+  </div>
+  <div className="flex items-center">
+    <ThemeSwitcher />
+  </div>
+</div>
   );
 }
 

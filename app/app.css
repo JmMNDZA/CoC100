@@ -85,3 +85,7 @@ h1 {
 h2 {
   @apply text-2xl font-bold text-secondary;
 }
+
+h3 {
+  @apply text-sm font-bold text-secondary;
+}
