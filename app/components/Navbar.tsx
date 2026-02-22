@@ -5,7 +5,7 @@ import "app/app.css";
 
 export function Navbar() {
   return (
-    <div className="flex flex-col md:flex-row flex-wrap justify-evenly items-center w-full gap-5 py-8">
+    <div className="flex flex-col md:flex-row flex-wrap justify-evenly items-center w-full pr-4 pl-4 gap-5 py-8">
   <div className="flex flex-col">
     <h3>COC100 </h3>
     <h1 id="charName" className="mt-[-5px]">Character Name</h1>
