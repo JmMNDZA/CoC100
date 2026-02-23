@@ -6,9 +6,12 @@ import "app/app.css";
 export function Navbar() {
   return (
     <div className="flex flex-col md:flex-row flex-wrap justify-evenly items-center w-full pr-4 pl-4 gap-5 py-5">
-  <div className="flex flex-col">
-    <h3>COC100 </h3>
-    <h1 id="charName" className="mt-[-5px]">Character Name</h1>
+  <div className="flex flex-row gap-2">
+    <img className="object-scale-down h-13 w-13 rounded-full border-primary border-solid border-2" src="https://placehold.net/400x400.png"/>
+    <div className="flex flex-col">
+      <h3>COC100 </h3>
+      < h1 id="charName" className="mt-[-8px]">Character Name</h1>
+    </div>
   </div>
   <div className="flex flex-row items-center justify-center gap-4 flex-wrap">
     <ValueModify name="Health " placeholder="50 / 50" modifyType="true"/>
@@ -22,8 +25,6 @@ export function Navbar() {
     <Button name="Notes" buttonType="notesButton"/>
     <Button name="Save" buttonType="jsonButton"/>
     <Button name="Load" buttonType="jsonButton"/>
-  </div>
-  <div className="flex items-center">
     <ThemeSwitcher />
   </div>
 </div>
