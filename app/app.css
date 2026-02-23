@@ -73,6 +73,12 @@
 
 @variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 @theme {
   --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";

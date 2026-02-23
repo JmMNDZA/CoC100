@@ -12,7 +12,7 @@ export function meta({}: Route.MetaArgs) {
 
 export default function Home() {
   return (
-    <div className="bg-base-200 min-h-full w-full m-0 p-0">
+    <div className="bg-base-200 min-h-screen w-full flex flex-col">
       <Navbar />
       <GridLayout />
     </div>
