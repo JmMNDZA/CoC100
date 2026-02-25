@@ -2,7 +2,7 @@ import { SelectModify } from "./SelectModify"
 
 export function CharInfo() {
     return (
-    <div className="flex flex-col justify-center p-2">
+        <div className="flex flex-col justify-center p-2 pb-5">
         <div className="flex aligns-center justify-center text-center">
         <h2>INFORMATION</h2>
         </div>
