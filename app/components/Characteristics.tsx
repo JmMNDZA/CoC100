@@ -6,7 +6,7 @@ export function Characteristics() {
                 <div className="flex justify-center text-center">
                     <h2 className="!m-0">CHARACTERISTICS</h2>
                </div>
-                <div className="grid grid-cols-3 max-[1228px]:grid-cols-2 gap-x-3 pt-3 gap-y-2">
+                <div className="grid grid-cols-3 max-[1228px]:grid-cols-2 max-[1023px]:grid-cols-4 max-[550px]:grid-cols-3 gap-x-3 pt-3 gap-y-2">
                      <div className="flex flex-col justify-center items-center">
                         <h3> STR </h3>
                         <FullHalfFifth />
