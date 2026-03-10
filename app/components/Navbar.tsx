@@ -11,9 +11,9 @@ export function Navbar() {
         < h1 id="charName">Character Name</h1>
       </div>
       <div className="flex flex-row items-center justify-center gap-4 pb-3 flex-wrap">
-        <ValueModify name="Health " placeholder="50 / 50" modifyType="true"/>
-        <ValueModify name="Magic " placeholder="50 / 50" modifyType="true"/>
-        <ValueModify name="Sanity " placeholder="50 / 50" modifyType="true"/>
+        <ValueModify name="Health " placeholder="50/50" modifyType="true"/>
+        <ValueModify name="Magic " placeholder="50/50" modifyType="true"/>
+        <ValueModify name="Sanity " placeholder="50/50" modifyType="true"/>
         <ValueModify name="MOV" placeholder="50" modifyType="false"/>
         <ValueModify name="LUCK" placeholder="50" modifyType="false"/>
     </div>
