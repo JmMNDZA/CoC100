@@ -1,6 +1,7 @@
 import { Button } from "./ButtonX";
 import { ValueModify } from "./ValueModify";
 import { ThemeSwitcher } from "./ThemeSwitcher";
+import { Link } from "react-router";
 import "app/app.css";
 
 export function Navbar() {
@@ -18,6 +19,7 @@ export function Navbar() {
         <ValueModify name="LUCK" placeholder="50" modifyType="false"/>
     </div>
   <div className="flex flex-row items-center justify-center gap-4 flex-wrap">
+    <Link to="/create" className="btn btn-primary btn-sm rounded-md">Create</Link>
     <Button name="Notes" buttonType="notesButton"/>
     <Button name="Save" buttonType="jsonButton"/>
     <Button name="Load" buttonType="jsonButton"/>
